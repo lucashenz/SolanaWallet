@@ -2,7 +2,7 @@
   "expo": {
     "name": "SolanaWallet",
     "slug": "solana-wallet",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "dark",
@@ -18,7 +18,7 @@
     },
     "android": {
       "package": "com.lucashenz.solanawallet",
-      "versionCode": 2,
+      "versionCode": 3,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#7C3AED"
@@ -35,6 +35,11 @@
     },
     "plugins": [
       "expo-secure-store"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "d2dfd5a9-0968-4672-ba8b-fa5c949ab299"
+      }
+    }
   }
 }
